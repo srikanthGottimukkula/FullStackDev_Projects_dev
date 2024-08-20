@@ -1,0 +1,19 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: Spring-data-jpa-Mappings
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: Srigmk@28
+    url: jdbc:mysql://localhost:3306/sb_projects
+    username: root
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL55Dialect
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+    show-sql: true
+    
